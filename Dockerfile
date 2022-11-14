@@ -11,3 +11,4 @@ ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
 #3. in CMD, in project directory  ' docker build -t spring-boot-docker.jar . '
 #4. in CMD ' docker image '
 #5. in CMD ' docker run -p 9090:8080 spring-boot-docker.jar '
+#useful docker commands ' docker ps ' ' docker stop '
